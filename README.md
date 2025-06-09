@@ -23,8 +23,6 @@ Projeto fullstack com cadastro de clientes, usando React (Next.js), Fastify, Pri
 
 ## 🐳 Como rodar o projeto localmente
 
-### 1. Clone o repositório
-
 ```bash
 git clone https://github.com/ErikNoda3/investments-app.git
 cd investments-app
@@ -40,11 +38,14 @@ cd investments-frontend
 npm install
 npm run dev
 ```
+### Obs.: a aplicação está nas rotas "localhost:3001/clients" para o backend e "localhost:3000/clients" para o frontend
 ---
 ### Estrutura do banco de dados (prisma)
+```bash
 model Client {
   id     Int    @id @default(autoincrement())
   name   String
   email  String @unique
   status Boolean
 }
+```
