@@ -1,12 +1,6 @@
 # Sistema de Gerenciamento de Clientes — Escritório de Investimentos
 
 Projeto fullstack com cadastro de clientes, usando React (Next.js), Fastify, Prisma e MySQL com Docker.
-
----
-
-## 📂 Estrutura do Projeto
-
-
 ---
 
 ## 🚀 Tecnologias Utilizadas
@@ -45,7 +39,9 @@ npm run dev
 cd investments-frontend
 npm install
 npm run dev
+```
 
+###Estrutura do banco de dados (prisma)
 model Client {
   id     Int    @id @default(autoincrement())
   name   String
