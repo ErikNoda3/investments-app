@@ -40,8 +40,8 @@ cd investments-frontend
 npm install
 npm run dev
 ```
-
-###Estrutura do banco de dados (prisma)
+---
+### Estrutura do banco de dados (prisma)
 model Client {
   id     Int    @id @default(autoincrement())
   name   String
